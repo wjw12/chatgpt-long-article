@@ -116,6 +116,7 @@ function App() {
         Task Prompt:
         <input
           type="text"
+          placeholder="Summarize the article for me."
           value={taskPrompt}
           onChange={(e) => setTaskPrompt(e.target.value)}
         />
